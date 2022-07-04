@@ -13,18 +13,10 @@ public class MonsterTest {
   }
 
   @Test
-  void testAttack() {
+  void appHasAGreeting() {
     int nameNum = 3;
     int rareNum = 3;
     Monster monster = new Monster(nameNum, rareNum);
-    assertEquals(monster.Attack(), 3);
-  }
-
-  @Test
-  void testToString() {
-    int nameNum = 4;
-    int rareNum = 4;
-    Monster monster = new Monster(nameNum, rareNum);
-    assertNotNull(monster.toString(), "シーサーベント:レア度[4]\n");
+    assertNotNull(monster.summonMonster(nameNum), "ドラゴン");
   }
 }
