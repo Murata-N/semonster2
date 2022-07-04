@@ -22,9 +22,9 @@ public class MonsterTest {
 
   @Test
   void testToString() {
-    int nameNum = 4;
-    int rareNum = 4;
+    int nameNum = 2;
+    int rareNum = 2;
     Monster monster = new Monster(nameNum, rareNum);
-    assertNotNull(monster.toString(), "シーサーベント:レア度[4]\n");
+    assertNotNull(monster.toString(), "ドラゴン:レア度[2]\n");
   }
 }

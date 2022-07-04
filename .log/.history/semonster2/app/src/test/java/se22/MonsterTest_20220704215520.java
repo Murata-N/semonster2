@@ -13,7 +13,7 @@ public class MonsterTest {
   }
 
   @Test
-  void testAttack() {
+  void appHasAGreeting() {
     int nameNum = 3;
     int rareNum = 3;
     Monster monster = new Monster(nameNum, rareNum);

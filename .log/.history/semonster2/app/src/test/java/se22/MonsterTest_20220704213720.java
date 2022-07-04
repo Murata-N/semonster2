@@ -25,6 +25,6 @@ public class MonsterTest {
     int nameNum = 4;
     int rareNum = 4;
     Monster monster = new Monster(nameNum, rareNum);
-    assertNotNull(monster.toString(), "シーサーベント:レア度[4]\n");
+    assertNotNull(monster.toString(), ":レア度[2]\n");
   }
 }
