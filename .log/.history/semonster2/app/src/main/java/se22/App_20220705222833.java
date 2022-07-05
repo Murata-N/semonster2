@@ -13,7 +13,7 @@ public class App {
 
     /* モンスターの名前を表示する */
     new MonsterShow().showMonsterName();
-    /* プレイヤーのデッキを表示する */
+    /* モンスターの名前を表示する */
     new Player("user").showDeck();
   }
 }
